@@ -1,3 +1,4 @@
 from django.db import models
 
-# Create your models here.
+class Job(models.Model):
+    job_url = models.fields.CharField(max_length=255)
